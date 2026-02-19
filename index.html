@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuvraj Singh | Portfolio</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0b1a;
+  color: #e5e5ff;
+}
+nav {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a { color: #e5e5ff; text-decoration: none; margin: 0 10px; }
+nav .name { color: #b482ff; font-weight: bold; font-size: 20px; }
+.hero {
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.hero h1 { font-size: 56px; margin: 10px 0; }
+.hero p { color: #c8c8dc; }
+.hero img { width: 260px; border-radius: 16px; box-shadow: 0 0 20px rgba(180,130,255,0.3); }
+.section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+.card {
+  background: #10122a;
+  padding: 20px;
+  border-radius: 16px;
+  margin-top: 15px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.skill {
+  background: #10122a;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+footer {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px 20px;
+  border-top: 1px solid #1a1c3a;
+  display: flex;
+  justify-content: space-between;
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="name">Yuvraj Singh</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certificates</a>
+    <a href="Yuvraj_Portfolio.pdf" target="_blank">CV</a>
+
+    <a href="https://www.linkedin.com/in/yuvraj-singh-6035432b3/" target="_blank">LinkedIn</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div>
+    <p style="color:#b482ff">&lt;Hello World /&gt; I'm Yuvraj Singh</p>
+    <h1>Automation Tester & Java Developer</h1>
+    <p>I build reliable test automation frameworks and scalable Java applications with clean design and efficient code.</p>
+  </div>
+  <div>
+    <img src="yuvraj-formal.jpg" alt="Yuvraj Singh">
+  </div>
+</section>
+
+<section class="section" id="about">
+  <h2 style="color:#b482ff">About Me</h2>
+  <div class="card">
+    Aspiring Software Tester and Java Developer currently pursuing B.Tech (CSE) at Lovely Professional University. 
+    Trained in Selenium automation, test frameworks, and Java-based applications with a focus on quality and reliability.
+  </div>
+</section>
+<section class="section" id="education">
+  <h2 style="color:#b482ff">Education</h2>
+
+  <div class="card">
+    <h3>Lovely Professional University</h3>
+    <p><strong>Bachelor of Technology – Computer Science and Engineering</strong></p>
+    <p>CGPA: 5.47</p>
+    <p>Phagwara, Punjab | July 2021 – Present</p>
+  </div>
+
+  <div class="card">
+    <h3>Central Public School</h3>
+    <p><strong>Intermediate (PCM)</strong></p>
+    <p>Percentage: 63.6%</p>
+    <p>Chapra, Bihar | March 2020 – May 2021</p>
+  </div>
+
+  <div class="card">
+    <h3>Central Public School</h3>
+    <p><strong>Matriculation</strong></p>
+    <p>Percentage: 75.6%</p>
+    <p>Chapra, Bihar | March 2019 – May 2020</p>
+  </div>
+
+</section>
+
+
+<section class="section" id="skills">
+  <h2 style="color:#b482ff">Skills</h2>
+  <div class="grid">
+    <div class="skill">Java</div>
+    <div class="skill">Python</div>
+    <div class="skill">Selenium WebDriver</div>
+    <div class="skill">TestNG</div>
+    <div class="skill">Maven</div>
+    <div class="skill">Jenkins</div>
+    <div class="skill">SQL</div>
+    <div class="skill">IntelliJ IDEA</div>
+    <div class="skill">PyCharm</div>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <h2 style="color:#b482ff">Project</h2>
+  <div class="card">
+    <h3>Library Management System (Java, Swing, SQL)</h3>
+    <ul>
+      <li>Automated book issue/return and fine calculation</li>
+      <li>Due-date tracking with real-time status updates</li>
+      <li>Secure CRUD operations using SQL</li>
+      <li>User-friendly dashboard interface</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="certifications">
+  <h2 style="color:#b482ff">Certificates</h2>
+  <div class="card">Build Generative AI Apps & Solutions with No-Code Tools (Aug 30, 2025)</div>
+  <div class="card">ChatGPT-4 Prompt Engineering (Aug 30, 2025)</div>
+  <div class="card">Computational Theory & Finite Automata (Dec 12, 2025)</div>
+</section>
+
+<footer>
+  <div>© 2026 Yuvraj Singh</div>
+  <div>
+    <a href="mailto:sudduyuvraj@gmail.com" style="color:#e5e5ff">Email</a> |
+    <a href="https://github.com/UserYuv123" target="_blank" style="color:#e5e5ff">GitHub</a>
+  </div>
+</footer>
+
+</body>
+</html>
